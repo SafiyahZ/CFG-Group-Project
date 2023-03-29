@@ -2,6 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Clone the repository and open a new terminal (bash) window in one of the components in VS code
+Run 'npm install react-icons'
+
 ## Available Scripts
 
 In the project directory, you can run:

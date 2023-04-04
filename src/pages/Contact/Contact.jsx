@@ -3,16 +3,18 @@ import './contact.css';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
-    name: '',
+    petsName: '',
+    species: '',
     email: '',
-    message: ''
+    image: '',
+    imageCaption: '',
   });
 
   const handleChange = (e) => {
-    const { name, value } = e.target;
+    const { index, value } = e.target;
     setFormData({
       ...formData,
-      [name]: value
+      [index]: value,
     });
   };
 
@@ -22,47 +24,90 @@ const Contact = () => {
     console.log(formData);
     // Reset the form fields
     setFormData({
-      name: '',
+      petsName: '',
+      species: '',
       email: '',
-      message: ''
+      image: '',
+      imageCaption: '',
     });
   };
 
   return (
-    <div className='contact-form'>
-      <h2>Contact form</h2>
-      <p>Please fill in the form below to get in touch with us.</p>
-      <form onSubmit={handleSubmit}>
-        <label htmlFor="name">Name:</label>
-        <input
-          type="text"
-          id="name"
-          name="name"
-          value={formData.name}
-          onChange={handleChange}
-          required
-        />
-        <label htmlFor="email">Email:</label>
-        <input
-          type="email"
-          id="email"
-          name="email"
-          value={formData.email}
-          onChange={handleChange}
-          required
-        />
-        <label htmlFor="message">Message:</label>
-        <textarea
-          id="message"
-          name="message"
-          value={formData.message}
-          onChange={handleChange}
-          required
-        ></textarea>
-        <button type="submit">Send</button>
-      </form>
+    <div className="contact-form">
+      <div>
+        <h2>Send us your pet pics</h2>
+
+        <p>
+          Hey, get in touch and send us a cute pic of your pet by entering the
+          image URL below. Any further questions, email us at{' '}
+          <a
+            style={{ color: 'blue', textDecoration: 'underline' }}
+            href="customersupport@pawsitivevibes.com"
+          >
+            customersupport@pawsitivevibes.com
+          </a>
+        </p>
+      </div>
+
+      <div>
+        <form onSubmit={handleSubmit}>
+          <label htmlFor="name">Pet Name:</label>
+          <input
+            type="text"
+            id="petsName"
+            name="petsName"
+            value={formData.petsName}
+            onChange={handleChange}
+            required
+          />
+
+          <label htmlFor="email">Species:</label>
+          <input
+            type="text"
+            id="species"
+            name="species"
+            value={formData.species}
+            onChange={handleChange}
+            required
+          />
+
+          <label htmlFor="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            value={formData.email}
+            onChange={handleChange}
+            required
+          />
+
+          <label htmlFor="image">Image:</label>
+          <input
+            type="text"
+            placeholder="Enter image url"
+            value={formData.image}
+            onChange={handleChange}
+          />
+
+          <label htmlFor="imageCaption">Image Caption:</label>
+          <textarea
+            id="imageCaption"
+            name="imageCaption"
+            value={formData.imageCaption}
+            onChange={handleChange}
+            required
+          ></textarea>
+
+          <div>
+            <button className="button" type="submit">
+              Send
+            </button>
+          </div>
+        </form>
+      </div>
     </div>
   );
 };
 
 export default Contact;
+

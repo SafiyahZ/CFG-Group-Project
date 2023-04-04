@@ -7,11 +7,8 @@ import logo from '../../assets/logo2.svg';
 const Menu = () => (
     <>
     <p><Link to="/">Home</Link></p>
-    <p><Link to="/Safiyah">Safiyah</Link></p>
-    <p><Link to="/Anca">Anca</Link></p>
-    <p><Link to="/Anju">Anju</Link></p>
-    <p><Link to="/Megha">Megha</Link></p>
-    <p><Link to="/Sade">Sade</Link></p>
+    <p><Link to="/About">About</Link></p>
+    <p><Link to="/Pets">Pets</Link></p>
     <p><Link to="/Contact">Contact</Link></p>
 
     </>

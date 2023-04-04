@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import { Link } from 'react-router-dom';
 import './navbar.css';
-import logo from '../../assets/logo2.svg';
+import logo from '../../assets/logo2.png';
 
 const Menu = () => (
     <>

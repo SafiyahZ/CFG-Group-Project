@@ -23,7 +23,7 @@ const Footer = () => {
         <div className="footer-below">
           <div className="footer-copyright">
             <p>
-              @{new Date().getFullYear()} SAAMS. All rights reserved.
+              @{new Date().getFullYear()} Pawsitive Vibes. All rights reserved.
             </p>
           </div>
           <div className="footer-below-links">

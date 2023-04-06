@@ -3,6 +3,7 @@ import './home.css';
 import pets from '../../assets/pets.png';
 import reviews from '../../assets/reviews2.png';
 
+
 function Home() {
   return (
     <div>

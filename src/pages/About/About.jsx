@@ -1,18 +1,22 @@
 import React from "react";
-import './about.css';
-import { Link } from 'react-router-dom';
+import "./about.css";
+import { Link } from "react-router-dom";
+import Anca from "file:///D:/Project/CFG-Group-Project/src/assets/Anca.png";
+import anju from "file:///D:/Project/CFG-Group-Project/src/assets/anju.png";
+import Megs from "file:///D:/Project/CFG-Group-Project/src/assets/Megs.png";
+import Sade from "file:///D:/Project/CFG-Group-Project/src/assets/Sade.jpg";
+import Safiyah from "D:/Project/CFG-Group-Project/src/assets/Safiyah.png";
 
-function clickMe(){
-  alert ('You clicked me :3')
+function clickMe() {
+  alert("You clicked me :3");
 }
 
-
-function About () {
-    return (
-        <div>
-        <h1>About Us</h1>
-        <h2>SAAMS</h2>
-        <p>
+function About() {
+  return (
+    <div>
+      <h1>About Us</h1>
+      <h2>SAAMS</h2>
+      <p>
         We're thrilled that you're here to join us in celebrating our love for
         cats and dogs. Our goal is to provide a fun and engaging platform where
         you can come and see photos of different types of pets, ranging from
@@ -31,18 +35,26 @@ function About () {
 
       <h3>MEET THE TEAM</h3>
 
-<p>Our team, SAAMS is made up of devoted pet owners and animal lovers who are dedicated to promoting responsible pet ownership, doses of serotonin, providing
-resources and support to pet owners. We hope these photos not only give you a boost of serotonin but persuades you to look into adopting rather than purchasing from puppy mills. 
-We believe that every pet deserves a loving fur-ever home!</p>
+      <p>
+        Our team, SAAMS is made up of devoted pet owners and animal lovers who
+        are dedicated to promoting responsible pet ownership, doses of
+        serotonin, providing resources and support to pet owners. We hope these
+        photos not only give you a boost of serotonin but persuades you to look
+        into adopting rather than purchasing from puppy mills. We believe that
+        every pet deserves a loving fur-ever home!
+      </p>
+      <button onClick={clickMe}>
+        <Link to="/Pets">View Pets!</Link>
+      </button>
+      <div className="Container-for-team-photo">
+        <img src={Anca} alt="photo of Anca" className="team-photo" />
+        <img src={anju} alt="photo of anju" className="team-photo" />
+        <img src={Megs} alt="photo of Megs" className="team-photo" />
+        <img src={Sade} alt="photo of Sade" className="team-photo" />
+        <img src={Safiyah} alt="photo of Safiyah" className="team-photo" />
+      </div>
+    </div>
+  );
+}
 
-
-<button onClick={clickMe}>
-<Link to="/Pets">View Pets!</Link>
-  </button> 
-
-</div>
-    );
-};
-
-
-export default About
+export default About;

@@ -1,23 +1,27 @@
-h1 {
+.title2 {
     text-align: center;
     text-decoration-line: underline;
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(4, 4, 127);
+    color: black;
 }
 
-h2{
+.title3{
     text-align: center;
+    color: rgb(226, 198,251);
 }
 
-h3{
+.teaminfo{
     text-align: center;
 }
 
 button {
     color: white;
-    background-color: blue;
+    margin-top: 20px;
+    padding: 10px;
+    padding-left: 18px;
+    border-radius: 20px;
+    background-color: rgb(156, 97, 241);
     box-shadow: 0ch;
-    border-radius: 0ch;
     display: block;
     margin: auto;
 

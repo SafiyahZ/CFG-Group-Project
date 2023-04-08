@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import { Link } from 'react-router-dom';
 import './navbar.css';
-import logo from '../../assets/logo2.png';
+import logo from '../../assets/Logo.png';
 
 const Menu = () => (
     <>
@@ -29,8 +29,8 @@ const Navbar = () => {
             </div>
             <div className="navbar-menu">
                 {toggleMenu
-                   ? <RiCloseLine color="#fff" size={27} onClick={() => setToggleMenu(false)}/>
-                   : <RiMenu3Line color="#fff" size={27} onClick={() => setToggleMenu(true) }/>
+                   ? <RiCloseLine color="black" size={27} onClick={() => setToggleMenu(false)}/>
+                   : <RiMenu3Line color="black" size={27} onClick={() => setToggleMenu(true) }/>
                 }
                 {toggleMenu && (
                     <div className="navbar-menu_container scale-up-center">

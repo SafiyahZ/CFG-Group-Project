@@ -4,6 +4,7 @@
     align-items: center;
     background-color: transparent;
     padding: 2rem 6rem;
+    padding-bottom: 2rem;
 
 }
 
@@ -21,19 +22,32 @@
 }
 
 .navbar-links_logo img {
-    width: 82px;
-    height: 62px;
+    width: 120px;
+    height: 65px;
 }
 
 .navbar-links_container {
     display: flex;
     flex-direction: row;
+    margin-left: 12cm;
 }
+
+.navbar-links_container a:hover {
+    background-color: rgb(156, 97, 241);
+    color: white;
+    padding: 7px;
+
+    border-radius: 25px;
+    }
 
 .navbar-contact {
     display: flex;
     justify-content: flex-end;
     align-self: center;
+}
+
+.navbar-contract:hover {
+    color: rgb(156, 97, 241);
 }
 
 .navbar-links_container p,

@@ -1,1 +1,120 @@
+/* Set some basic styles for the entire page */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    }
+    
+    /* Center the loading text on the page */
+    .loading {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 2em;
+    }
+    
+    /* Style the main container */
+    .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+    }
+    
+    /* Style the dog container */
+    .container_dog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    }
+    
+    /* Style the dog title */
+    .dog {
+    font-size: 3em;
+    margin-bottom: 0;
+    }
+    
+    /* Style the dog breeds text */
+    .breeds {
+    margin-top: 0;
+    font-size: 1.5em;
+    color: #999;
+    }
+    
+    /* Style the search form */
+    form {
+    margin-top: 20px;
+    }
+    
+    /* Style the search input */
+    .form {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 1.2em;
+    }
+    
+    /* Style the dog grid */
+    .dog_grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    /* grid-template-columns: repeat(3, 1fr); */
+    grid-gap: 20px;
+    }
+    
+    /* Style each dog article */
+    .dog_article {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    }
+    
+ 
+    .dog_pic {
+    width: 100%;
+    height: auto; 
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 5px;
+    }
 
+    .dog_pic:hover {
+    transform: scale(1.1);
+    }
+        
+    
+    /* Style the dog name */
+    h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 1.5em;
+    }
+    
+    /* Style the dog bred for text */
+    p {
+    margin-top: 0;
+    color: #999;
+    font-size: 1.2em;
+    }
+    
+ 
+    @media only screen and (max-width: 768px) {
+    .dog_grid {
+    grid-template-columns: repeat(2, 1fr); 
+    }
+    
+    .dog_pic {
+    height: 200px; /* reduce height of image on smaller screens */
+    }
+    }
+    
+    @media only screen and (max-width: 480px) {
+    .dog_grid {
+    grid-template-columns: 1fr; /* show 1 dog in a row */
+    }
+    
+    .dog_pic {
+    height: 150px; /* reduce height of image further on smallest screens */
+    }
+    }

@@ -11,11 +11,11 @@ function clickMe() {
   alert("You clicked me :3");
 }
 
-function About() {
-  return (
-    <div>
-      <h1>About Us</h1>
-      <h2>SAAMS</h2>
+function About () {
+    return (
+      <div>
+      <h1 className='title2'> About Us</h1>
+      <h2 className='title3'>SAAMS</h2>
       <p>
         We're thrilled that you're here to join us in celebrating our love for
         cats and dogs. Our goal is to provide a fun and engaging platform where
@@ -33,7 +33,7 @@ function About() {
         browsing through our collection of adorable pet photos.
       </p>
 
-      <h3>MEET THE TEAM</h3>
+      <h3 className='teaminfo'> MEET THE TEAM</h3>
 
       <p>
         Our team, SAAMS is made up of devoted pet owners and animal lovers who

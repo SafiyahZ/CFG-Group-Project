@@ -5,4 +5,4 @@ export {default as Contact} from './Contact/Contact';
 export {default as Dog} from './Dog/Dog';
 export {default as Cats} from './Cats/Cats';
 export {default as Cat} from './Cat/Cat';
-export {default as RandomCat} from './RandomCat/RandomCat';
+export {default as RandomPet} from './RandomPet/RandomPet';

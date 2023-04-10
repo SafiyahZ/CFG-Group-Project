@@ -52,6 +52,7 @@ export default function BuildMeme() {
     return (
       <div className="meme-container">
         <div className="cat-container">
+        <h3>Cat Meme generator</h3>
           <div
             className="cat-image-container"
             style={{ backgroundImage: `url(${catUrl})` }}
@@ -119,6 +120,7 @@ export default function BuildMeme() {
     return (
       <div className="meme-container">
         <div className="dog-container">
+            <h3>Dog Meme generator</h3>
           <div
             className="dog-image-container"
             style={{ backgroundImage: `url(${dogUrl})` }}

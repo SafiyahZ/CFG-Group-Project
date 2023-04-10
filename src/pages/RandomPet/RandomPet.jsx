@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './randomPet.css';
 
 export default function RandomPet() {
@@ -16,7 +16,7 @@ export default function RandomPet() {
             <h2 className='random_p'>Start your day with a cat pic</h2>
               <div className="random_box">
                 
-                  <img className="random_img" src={imgUrl} alt="random cat"/>
+                  <img className="random_img" src={imgUrl} alt="random cat" loading="lazy"/>
                   <button className='random_button' onClick={() => callImg()}>Click me</button>
               </div>
             </div>
@@ -37,7 +37,7 @@ export default function RandomPet() {
             <h2 className='random-dog_p'>Start your day with a dog pic</h2>
               <div className="random-dog_box">
                 
-                  <img className="random-dog_img" src={imgUrl} alt="random dog"/>
+                  <img className="random-dog_img" src={imgUrl} alt="random dog" loading="lazy"/>
                   <button className='random-dog_button' onClick={() => callImg()}>Click me</button>
               </div>
             </div>
@@ -49,6 +49,7 @@ export default function RandomPet() {
     <>
       <RandomCat />
       <RandomDog />
+     
     </>
   );
 }

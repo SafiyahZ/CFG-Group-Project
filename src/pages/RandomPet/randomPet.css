@@ -1,5 +1,5 @@
 
-.random_container,
+/* .random_container,
 .random-dog_container {
   display: flex;
   flex-direction: column;
@@ -46,4 +46,114 @@
 .random-dog_button:hover {
   background-color: #3e8e41;
 }
+ */
 
+ /* Styles for random cat */
+.random_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.random_p {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.random_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.random_img {
+  width: 400px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.random_button {
+  background-color: #9c61f1;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-top: 2rem;
+  transition: background-color 0.3s ease; 
+}
+
+.random_button:hover {
+  background-color: #3e8e41;
+}
+
+/* Styles for random dog */
+.random-dog_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.random-dog_p {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.random-dog_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.random-dog_img {
+  width: 400px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.random-dog_button {
+  background-color: #9c61f1;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-top: 2rem;
+  transition: background-color 0.3s ease; 
+}
+
+.random-dog_button:hover {
+  background-color: #3e8e41;
+}
+
+/* Styles for cat meme creator */
+.meme-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.cat-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.cat-image {
+  width: 400px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+
+
+ 

@@ -1,0 +1,57 @@
+.meme-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .cat-container,
+  .dog-container {
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .cat-image-container,
+  .dog-image-container {
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  
+  .quote {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  .new-cat-button,
+  .new-dog-button,
+  .new-quote-button {
+    background-color: #9c61f1;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-top: 2rem;
+    transition: background-color 0.3s ease; 
+  }
+  
+  .new-cat-button:hover,
+  .new-cat-button:hover,
+  .new-quote-button:hover {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  

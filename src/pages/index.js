@@ -6,3 +6,4 @@ export {default as Dog} from './Dog/Dog';
 export {default as Cats} from './Cats/Cats';
 export {default as Cat} from './Cat/Cat';
 export {default as RandomPet} from './RandomPet/RandomPet';
+export {default as BuildMeme} from './BuildMeme/BuildMeme';

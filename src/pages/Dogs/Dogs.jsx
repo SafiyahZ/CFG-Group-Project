@@ -1,5 +1,4 @@
 import './dogs.css';
-// import { default as Hero } from '../../components/hero/Hero';
 import React, { useState, useEffect } from 'react';
 import {Link} from 'react-router-dom';
 

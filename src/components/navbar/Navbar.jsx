@@ -11,6 +11,7 @@ const Menu = () => (
     <p><Link to="/Dogs">Dogs</Link></p>
     <p><Link to="/Cats">Cats</Link></p>
     <p><Link to="/RandomPet">RandomPet</Link></p>
+    <p><Link to="/BuildMeme">BuildMeme</Link></p>
     <p><Link to="/Contact">Contact</Link></p>
 
     </>

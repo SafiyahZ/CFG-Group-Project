@@ -10,6 +10,7 @@ import Cats from './pages/Cats/Cats';
 import Cat from './pages/Cat/Cat';
 import Contact from './pages/Contact/Contact';
 import RandomPet from './pages/RandomPet/RandomPet';
+import BuildMeme from './pages/BuildMeme/BuildMeme';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path="/Cats" element={<Cats />} />
         <Route path="/Contact" element={<Contact />} />
         <Route path="/RandomPet" element={<RandomPet />} />
+        <Route path="/BuildMeme" element={<BuildMeme />} />
       </Routes>
       <Footer />
     </Router>

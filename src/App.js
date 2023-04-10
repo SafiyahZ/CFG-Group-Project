@@ -9,7 +9,7 @@ import Dog from './pages/Dog/Dog';
 import Cats from './pages/Cats/Cats';
 import Cat from './pages/Cat/Cat';
 import Contact from './pages/Contact/Contact';
-import RandomCat from './pages/RandomCat/RandomCat';
+import RandomPet from './pages/RandomPet/RandomPet';
 
 function App() {
   return (
@@ -23,7 +23,7 @@ function App() {
         <Route path="/:name" element={<Cat />} />
         <Route path="/Cats" element={<Cats />} />
         <Route path="/Contact" element={<Contact />} />
-        <Route path="/RandomCat" element={<RandomCat />} />
+        <Route path="/RandomPet" element={<RandomPet />} />
       </Routes>
       <Footer />
     </Router>

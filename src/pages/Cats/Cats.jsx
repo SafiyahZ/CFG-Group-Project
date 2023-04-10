@@ -1,8 +1,8 @@
 import './cats.css';
-// import { default as Hero } from '../../components/hero/Hero';
 import React, { useState, useEffect } from 'react';
 import {Link} from 'react-router-dom';
 import { catOptions } from '../../options';
+
 export default function Cats() {
   const [cats, setCats] = useState([])
   const [text, setText] = useState("")

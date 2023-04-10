@@ -1,3 +1,4 @@
+//  exporting multiple modules from different files to be used in other parts of the codebase
 export {default as Dogs} from './Dogs/Dogs';
 export {default as About } from './About/About';
 export {default as Home} from './Home/Home';

@@ -1,28 +1,49 @@
-.title2 {
+
+.about {
+    margin: 50px auto;
+    max-width: 800px;
     text-align: center;
-    text-decoration-line: underline;
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
-}
+  }
+  
+  .title3 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .about_p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+  
+  .teaminfo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .Container-for-team-photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 30px auto;
+    max-width: 800px;
+  }
+  
+  .team-photo {
+    margin: 10px;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+  }
+  
+  
+  
 
-.title3{
-    text-align: center;
-    color: rgb(226, 198,251);
-}
 
-.teaminfo{
-    text-align: center;
-}
 
-button {
-    color: white;
-    margin-top: 20px;
-    padding: 10px;
-    padding-left: 18px;
-    border-radius: 20px;
-    background-color: rgb(156, 97, 241);
-    box-shadow: 0ch;
-    display: block;
-    margin: auto;
-
-}

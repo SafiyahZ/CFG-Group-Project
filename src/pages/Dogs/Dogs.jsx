@@ -2,12 +2,13 @@ import './dogs.css';
 import React, { useState, useEffect } from 'react';
 import {Link} from 'react-router-dom';
 
+// Define the Dogs component and set up state variables
 export default function Dogs() {
   const [dogs, setDogs] = useState([])
   const [text, setText] = useState("")
   const [searched, setSearched] = useState(false)
 
-
+// Use the useEffect hook to fetch dog data from the API 
   useEffect(() => {
    const fetchDogData = async () => {
     try {
@@ -18,10 +19,12 @@ export default function Dogs() {
       console.error(error)
     }
   } 
+  // Set searched to false and fetch the dog data
    setSearched(false)
    fetchDogData()
 }, [])
 
+// Define a function to search for dogs by text
 const dogSearch = async() => {
 	try {
 	  const res = await fetch(`https://api.thedogapi.com/v1/breeds/search?q=${text}`)
@@ -32,21 +35,25 @@ const dogSearch = async() => {
 	}
 }
 
+// function to handle form submission
 const handleSubmit =(e) => {
 	e.preventDefault()
-
+// Call dogSearch to fetch the data and set searched to true
 	dogSearch()
 	setSearched(true)
 }
 
   return (
     <>
+    {/* If there are no dogs, show a loading message */}
      {!dogs ? (
 		<h1 className="loading">Loading...</h1>
 	 ) : (
 		<>
 		<section className='container'>
 			<div className='container_dog'>
+        {/* Display the title and a search form  */}
+     
 			<h2 className="dog">Dogs</h2>
 			<p className ="breeds">Discover your favorite breeds</p>
 			<form onSubmit={handleSubmit}>
@@ -61,6 +68,7 @@ const handleSubmit =(e) => {
 			</form>
 			</div>
 			<div className='dog_grid'>
+        {/*  If the user hasn't searched yet, display all the dogs  */}
 			{!searched ? (
                 dogs.map((dog) => (
                   <Link
@@ -81,6 +89,7 @@ const handleSubmit =(e) => {
                   </Link>
                 ))
 				) : (
+          //  If the user has searched, only display the dogs that match the search term
                 <>
                   {dogs.map((dog) => (
                     <Link

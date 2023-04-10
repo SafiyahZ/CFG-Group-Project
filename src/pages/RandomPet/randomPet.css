@@ -85,14 +85,6 @@
   background-color: #3e8e41;
 }
 
-/* Styles for cat meme creator */
-.meme-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  margin-top: 50px;
-}
 
 .cat-container {
   display: flex;

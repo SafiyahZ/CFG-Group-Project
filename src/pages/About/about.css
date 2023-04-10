@@ -1,49 +1,139 @@
-
 .about {
-    margin: 50px auto;
-    max-width: 800px;
-    text-align: center;
+  margin: 4vw auto;
+  max-width: 80vw;
+  text-align: center;
+}
+
+.title3 {
+  font-size: 2.5vw;
+  font-weight: bold;
+  margin-bottom: 2vw;
+  color: rgb(226, 198, 251);
+}
+
+.about_p {
+  font-size: 1vw;
+  line-height: 1.5;
+  margin-bottom: 3vw;
+  text-align: justify;
+  color: black;
+}
+
+.teaminfo {
+  font-size: 2vw;
+  font-weight: bold;
+  margin-top: 5vw;
+  margin-bottom: 2vw;
+  color: rgb(226, 198, 251);
+}
+
+.Container-for-team-photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 3vw auto;
+  max-width: 80vw;
+}
+
+.team-photo {
+  margin: 1vw;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border: solid rgb(226, 198, 251);
+}
+
+@media only screen and (min-width: 300px) {
+  .about {
+    margin: 4vw auto;
+    max-width: 70vw;
   }
-  
+
   .title3 {
-    font-size: 36px;
-    font-weight: bold;
-    margin-bottom: 20px;
+    font-size: 2vw;
   }
-  
+
   .about_p {
-    font-size: 18px;
-    line-height: 1.5;
-    margin-bottom: 30px;
-    text-align: justify;
+    font-size: 1vw;
+    margin-bottom: 2.5vw;
   }
-  
+
   .teaminfo {
-    font-size: 24px;
-    font-weight: bold;
-    margin-top: 50px;
-    margin-bottom: 20px;
+    font-size: 2vw;
+    margin-top: 4vw;
+    margin-bottom: 1vw;
   }
-  
+
   .Container-for-team-photo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    margin: 30px auto;
-    max-width: 800px;
+    margin: 2vw auto;
+    max-width: 70vw;
   }
-  
+
   .team-photo {
-    margin: 10px;
-    border-radius: 50%;
-    width: 120px;
-    height: 120px;
-    object-fit: cover;
+    margin: 1vw;
+    width: 9vw;
+    height: 9vw;
   }
-  
-  
-  
+}
 
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .about {
+    margin: 3vw auto;
+    max-width: 60vw;
+  }
 
+  .title3 {
+    font-size: 2.5vw;
+  }
 
+  .about_p {
+    font-size: 1.5vw;
+    margin-bottom: 2.5vw;
+  }
+
+  .teaminfo {
+    font-size: 2.5vw;
+    margin-top: 3vw;
+    margin-bottom: 1vw;
+  }
+
+  .Container-for-team-photo {
+    margin: 2vw auto;
+    max-width: 60vw;
+  }
+
+  .team-photo {
+    margin: 1vw;
+    width: 7vw;
+    height: 7vw;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .about {
+    margin: 1vw auto;
+    max-width: 50vw;
+  }
+
+  .title3 {
+    font-size: 2.6vw;
+  }
+
+  .about_p {
+    font-size: 1.4vw;
+    margin-bottom: 2vw;
+  }
+
+  .teaminfo {
+    font-size: 2.6vw;
+    margin-top: 3vw;
+    margin-bottom: 1.5vw;
+  }
+
+  .Container-for-team-photo {
+    margin: 2vw auto;
+    max-width: 60vw;
+  }
+}

@@ -1,4 +1,4 @@
-import './pets.css';
+import './dogs.css';
 // import { default as Hero } from '../../components/hero/Hero';
 import React, { useState, useEffect } from 'react';
 import {Link} from 'react-router-dom';
@@ -116,20 +116,5 @@ const handleSubmit =(e) => {
 
 
 
-// const Pets = () => {
-// return (
-    
-// 	<div>
-//     <Hero />
-// 	</div>	
-	
-	
-// //    <script>api key=live_UHUBG9wCakhKr6eNqrdMtnCc1iyOB7kNqXiNZSmnFUrxHf1Sp0bkglKk7fCTsw99<script>
-   
-   
-// )
-// }
-
-// export default Pets
 
 

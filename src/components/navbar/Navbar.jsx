@@ -8,7 +8,9 @@ const Menu = () => (
     <>
     <p><Link to="/">Home</Link></p>
     <p><Link to="/About">About</Link></p>
-    <p><Link to="/Pets">Pets</Link></p>
+    <p><Link to="/Dogs">Dogs</Link></p>
+    <p><Link to="/Cats">Cats</Link></p>
+    <p><Link to="/RandomCat">RandomCat</Link></p>
     <p><Link to="/Contact">Contact</Link></p>
 
     </>

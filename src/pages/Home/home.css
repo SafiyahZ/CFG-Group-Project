@@ -1,50 +1,50 @@
 .slogan {
     text-align: center;
-    font-size: 5rem;
+    font-size: 6vw;
 }
 
 .title{
     color: rgb(226, 198, 251);
     font-weight: bolder;
-    font-size: 30px;
+    font-size: 5vw;
 }
 
 .description{
-    max-width: 17cm;
-    font-size: 20px;
+    max-width: 60vw;
+    font-size: 2vw;
     font-weight: normal
 }
 
 .pet-image {
     height: auto;
-    max-width: 45%;
-    padding-top: 15px;
-    padding-bottom: 30px;
+    max-width: 50vw;
+    padding-top: 5vw;
+    padding-bottom: 4vw;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
 .info {
-    padding-top: 20px;
-    margin-left: 15%;
+    padding-top: 1vw;
+    margin-left: 10vw;
 }
 
 .review-image{
-    margin-left: 1%;
-    margin-top: 9%;
-    width: 400px;
-    height: 150px
-
+    margin-left: 0.5vw;
+    margin-top: 0.5vw;
+    width: 70vw;
+    height: 15vw;
 }
 
 .viewpets {
-    margin-top: 20px;
-    padding: 10px;
-    padding-left: 18px;
-    border-radius: 20px;
+    margin-top: 5vw;
+    padding: 1vw;
+    padding-left: 2vw;
+    border-radius: 20vw;
     background-color: rgb(156, 97, 241);
     color: white;
+    font-size: 2vw;
 }
 
 .info4{

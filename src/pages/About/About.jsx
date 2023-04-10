@@ -1,20 +1,16 @@
 import React from "react";
 import "./about.css";
-// import { Link } from "react-router-dom";
 import Anca from  '../../assets/Anca.png';
 import anju from '../../assets/anju.png';
 import Megs from '../../assets/Megs.png';
 import Sade from '../../assets/Sade.png';
 import Safiyah from  '../../assets/Safiyah.png';
 
-// function clickMe() {
-//   alert("You clicked me :3");
-// }
-
 function About () {
     return (
       <div>
-      {/* <h1 className='title2'> About Us</h1> */}
+
+   
     <div className="about">
       <h2 className='title3'>SAAMS</h2>
       <p className="about_p">
@@ -23,7 +19,8 @@ function About () {
         you can come and see photos of different types of pets, ranging from
         cute to funny.
       </p>
-      <p className="about_p">
+  
+     <p className="about_p">
         We believe that there are many benefits to visually seeing cats and dogs
         photos. It can help promote relaxation and reduce stress levels, boost
         mood, foster creativity, and provide entertainment. We hope that our
@@ -36,7 +33,9 @@ function About () {
 
       <h3 className='teaminfo'> MEET THE TEAM</h3>
 
+
       <p className="about_p">
+
         Our team, SAAMS is made up of devoted pet owners and animal lovers who
         are dedicated to promoting responsible pet ownership, doses of
         serotonin, providing resources and support to pet owners. We hope these
@@ -44,10 +43,10 @@ function About () {
         into adopting rather than purchasing from puppy mills. We believe that
         every pet deserves a loving fur-ever home!
       </p>
+
     </div>
-      {/* <button onClick={clickMe}>
-        <Link to="/Pets">View Pets!</Link>
-      </button> */}
+
+
       <div className="Container-for-team-photo">
         <img src={Anca} alt="photo of Anca" className="team-photo" />
         <img src={anju} alt="photo of anju" className="team-photo" />
@@ -60,3 +59,4 @@ function About () {
 }
 
 export default About;
+

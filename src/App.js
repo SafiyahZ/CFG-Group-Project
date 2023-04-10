@@ -19,9 +19,9 @@ function App() {
       <Routes>
         <Route path="/" exact element={<Home />} />
         <Route path="/About" element={<About />} />
-        <Route path="/:name" element={<Dog />} />
+        <Route path=":name" element={<Dog />} />
         <Route path="/Dogs" element={<Dogs />} />
-        <Route path="/:name" element={<Cat />} />
+        <Route path=":catName" element={<Cat />} />
         <Route path="/Cats" element={<Cats />} />
         <Route path="/Contact" element={<Contact />} />
         <Route path="/RandomPet" element={<RandomPet />} />

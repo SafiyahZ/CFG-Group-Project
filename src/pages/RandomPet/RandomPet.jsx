@@ -6,7 +6,7 @@ export default function RandomPet() {
 
 
   const RandomCat = () => {
-      const [imgUrl, setUrl] = useState("https://cdn2.thecatapi.com/images/DZba-eH_4.jpg");
+      const [imgUrl, setUrl] = useState("https://cdn2.thecatapi.com/images/ebv.jpg");
       const callImg = () => {
         fetch("https://api.thecatapi.com/v1/images/search")
         .then(res => res.json())

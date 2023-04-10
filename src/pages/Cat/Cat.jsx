@@ -1,17 +1,17 @@
 import React, {useState, useEffect} from "react";
 import {Link, useParams} from 'react-router-dom';
-// import { catOptions } from '../../options';
+import { catOptions } from '../../options';
 import './cat.css'
 
 export default function Cat() {
     const [cat, setCat] = useState([]);
-    const {name} = useParams();
+    const {catName} = useParams();
     
 
     useEffect(() => {
         const fetchSingleCatData = async () => {
             try {
-              const res = await fetch(`https://api.thecatapi.com/v1/breeds?/search?q=${name}`)
+              const res = await fetch(`https://api.thecatapi.com/v1/breeds?/search?q=${catName}`,catOptions)
               const data = await res.json();
               setCat(data)
              } catch (error) {
@@ -19,8 +19,7 @@ export default function Cat() {
              }
             }
             fetchSingleCatData()
-    }, [name]);
-
+    }, [catName]);
 
     return (
     <>

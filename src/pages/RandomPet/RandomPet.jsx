@@ -1,7 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState} from 'react';
 import './randomPet.css';
 
 export default function RandomPet() {
+
+
 
   const RandomCat = () => {
       const [imgUrl, setUrl] = useState("https://cdn2.thecatapi.com/images/DZba-eH_4.jpg");
@@ -47,9 +49,13 @@ export default function RandomPet() {
 
   return (
     <>
+      <h3 className='random-title'>Did you know...</h3>
+      <h4 className='statistics'>Studies show watching images and videos of cute animals for 30 minutes lowers blood pressure, heart rate and anxiety</h4>
+      <div className='generator'>
       <RandomCat />
       <RandomDog />
-     
+      </div>
+      
     </>
   );
 }

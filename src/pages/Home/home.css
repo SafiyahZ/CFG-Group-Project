@@ -17,9 +17,9 @@
 
 .pet-image {
     height: auto;
-    max-width: 45%;
-    padding-top: 15px;
-    padding-bottom: 30px;
+    max-width: 50vw;
+    padding-top: 5vw;
+    padding-bottom: 4vw;
     display: block;
     margin-left: auto;
     margin-right: auto;

@@ -51,3 +51,36 @@
     display: flex;
     flex-direction: row;
 }
+
+@media screen and (max-width: 768px) {
+
+    .slogan {
+    font-size: 12vw;
+    }
+    
+    .title {
+    font-size: 10vw;
+    }
+    
+    .description {
+    max-width: 80vw;
+    font-size: 4vw;
+    }
+    
+    .pet-image {
+    max-width: 80vw;
+    padding-top: 10vw;
+    padding-bottom: 8vw;
+    }
+    
+    .review-image {
+    margin-top: 1vw;
+    width: 90vw;
+    height: 20vw;
+    }
+    
+    .viewpets {
+    margin-top: 10vw;
+    font-size: 4vw;
+    }
+    }

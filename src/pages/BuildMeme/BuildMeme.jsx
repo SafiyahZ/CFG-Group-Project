@@ -143,8 +143,10 @@ export default function BuildMeme() {
 
   return (
         <>
+          <div className='build-meme'>
           <CatMemeCreator />
           <DogMemeCreator />
+          </div>
         </>
       ); 
 }

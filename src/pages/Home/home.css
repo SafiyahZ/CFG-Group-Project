@@ -1,24 +1,24 @@
 .slogan {
     text-align: center;
-    font-size: 6vw;
+    font-size: 4vw;
 }
 
 .title{
     color: rgb(226, 198, 251);
     font-weight: bolder;
-    font-size: 5vw;
+    font-size: 2vw;
 }
 
 .description{
-    max-width: 60vw;
-    font-size: 2vw;
+    max-width: 40vw;
+    font-size: 1vw;
     font-weight: normal
 }
 
 .pet-image {
     height: auto;
-    max-width: 50vw;
-    padding-top: 5vw;
+    max-width: 30vw;
+    padding-top: 2vw;
     padding-bottom: 4vw;
     display: block;
     margin-left: auto;
@@ -32,19 +32,19 @@
 
 .review-image{
     margin-left: 0.5vw;
-    margin-top: 0.5vw;
-    width: 70vw;
-    height: 15vw;
+    margin-top: 7vw;
+    width: 30vw;
+    height: 8vw;
 }
 
 .viewpets {
-    margin-top: 5vw;
-    padding: 1vw;
-    padding-left: 2vw;
+    margin-top: 1vw;
+    margin-bottom: 4vw;
+    padding: 0.5vw;
     border-radius: 20vw;
     background-color: rgb(156, 97, 241);
     color: white;
-    font-size: 2vw;
+    font-size: 1vw;
 }
 
 .info4{

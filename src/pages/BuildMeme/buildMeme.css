@@ -11,6 +11,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-left: 14vw;
   }
   
   .cat-image-container,
@@ -56,7 +57,7 @@
     cursor: pointer;
     margin-top: 2rem;
     transition: background-color 0.3s ease; 
-    display:inline-flex;
+    /* display:inline-flex; */
   }
   
   .new-cat-button:hover,
@@ -66,10 +67,14 @@
     color: #000;
   }
   
-
+  .build-meme{
+    display: flex;
+    justify-content: row;
+  }
   
-  
-
+.new-quote-button{
+  margin-left: 14vw;
+}
    
   
   

@@ -2,6 +2,7 @@
   "name": "cfg-project",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://safiyahz.github.io/CFG-GROUP-PROJECT",
   "dependencies": {
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.3.5",
